@@ -55,7 +55,7 @@
 
 			</li>
 			<li class="treeview"><a href="#"> <i class="fa fa-cube"></i>
-				<span>厂商管理</span> <span class="pull-right-container"> <i
+				<span>药厂管理</span> <span class="pull-right-container"> <i
 						class="fa fa-angle-left pull-right"></i>
 				</span>
 			</a>
@@ -64,8 +64,8 @@
 					<li id="system-setting">
 
 							<a
-									href="${pageContext.request.contextPath}/manufactor/findAll.do"> <i
-									class="fa fa-circle-o"></i> 厂家管理
+									href="${pageContext.request.contextPath}/medInfs/findAll.do"> <i
+									class="fa fa-circle-o"></i> 药品基本信息
 							</a>
 
 					</li>
@@ -73,8 +73,16 @@
 
 							<a
 									href="${pageContext.request.contextPath}/manufacturer/findAll.do"> <i
-									class="fa fa-circle-o"></i> 厂家库存管理
+									class="fa fa-circle-o"></i> 销售员
 							</a>
+
+					</li>
+					<li id="system-setting">
+
+						<a
+								href="${pageContext.request.contextPath}/manufacturer/findAll.do"> <i
+								class="fa fa-circle-o"></i> 报表
+						</a>
 
 					</li>
 
@@ -82,25 +90,25 @@
 
 
 			<li class="treeview"><a href="#"> <i class="fa fa-cube"></i>
-					<span>库存管理</span> <span class="pull-right-container"> <i
+					<span>医院管理</span> <span class="pull-right-container"> <i
 						class="fa fa-angle-left pull-right"></i>
 				</span>
 			</a>
 				<ul class="treeview-menu">
 					<li id="system-setting"><a
 							href="${pageContext.request.contextPath}/stock/findAll.do">
-						<i class="fa fa-circle-o"></i> 商品库存
+						<i class="fa fa-circle-o"></i> 药品信息
 					</a></li>
 					<li id="system-setting"><a
 						href="${pageContext.request.contextPath}/orders/findAll.do?page=1&size=4"> <i
-							class="fa fa-circle-o"></i> 销售记录
+							class="fa fa-circle-o"></i> 患者信息
 					</a></li>
 
 				</ul></li>
 
 
 			<li class="treeview"><a href="#"> <i class="fa fa-cube"></i>
-				<span>订单管理</span> <span class="pull-right-container"> <i
+				<span>患者管理</span> <span class="pull-right-container"> <i
 						class="fa fa-angle-left pull-right"></i>
 				</span>
 			</a>
@@ -108,11 +116,7 @@
 
 					<li id="system-setting"><a
 					href="${pageContext.request.contextPath}/indent/findAll.do">
-					<i class="fa fa-circle-o"></i> 厂家订单
-					</a></li>
-					<li id="system-setting"><a
-							href="${pageContext.request.contextPath}/orders/findAll.do">
-						<i class="fa fa-circle-o"></i> 批发商订单
+					<i class="fa fa-circle-o"></i> 患者信息
 					</a></li>
 
 				</ul></li>
