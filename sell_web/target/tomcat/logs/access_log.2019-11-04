@@ -1,6 +1,0 @@
-0:0:0:0:0:0:0:1 - - [04/Nov/2019:11:50:25 +0800] "GET /sell_web/ HTTP/1.1" 200 13887 http-bio-80-exec-1 905
-0:0:0:0:0:0:0:1 - - [04/Nov/2019:11:50:25 +0800] "GET /sell_web/img/center.jpg HTTP/1.1" 200 221181 http-bio-80-exec-3 4
-0:0:0:0:0:0:0:1 - - [04/Nov/2019:11:50:32 +0800] "GET /sell_web/user/findAll.do HTTP/1.1" 200 16455 http-bio-80-exec-4 560
-0:0:0:0:0:0:0:1 - - [04/Nov/2019:11:50:36 +0800] "GET /sell_web/role/findAll.do HTTP/1.1" 200 16403 http-bio-80-exec-5 108
-0:0:0:0:0:0:0:1 - - [04/Nov/2019:11:50:38 +0800] "GET /sell_web/permission/findAll.do HTTP/1.1" 404 949 http-bio-80-exec-7 5
-0:0:0:0:0:0:0:1 - - [04/Nov/2019:11:51:21 +0800] "GET /sell_web/permission/findAll.do HTTP/1.1" 404 949 http-bio-80-exec-8 3
