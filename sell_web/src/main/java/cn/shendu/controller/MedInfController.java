@@ -19,9 +19,9 @@ public class MedInfController {
     @RequestMapping("/findAll.do")
     public ModelAndView findAll()throws Exception{
         ModelAndView mv = new ModelAndView();
-        List<MedInformation> medinf = medInfService.findAll();
-        mv.addObject("MedInfList",medinf);
-        mv.setViewName("medinf-list");
+        List<MedInformation> medInf = medInfService.findAll();
+        mv.addObject("MedInfList",medInf);
+        mv.setViewName("medInf-list");
         return mv;
     }
 }

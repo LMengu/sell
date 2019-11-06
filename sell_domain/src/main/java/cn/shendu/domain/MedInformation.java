@@ -8,10 +8,10 @@ import java.util.Date;
 
 public class MedInformation {
     private Integer id;//药品信息编号
-    private String medname;//药品名称
+    private String medName;//药品名称
     private Date productionDate;//生产日期
     private String productionDateStr;
-    private String shelflife;//保质期
+    private String shelfLife;//保质期
     private String speciality;//药品特性
     private Double price;//价格
 
@@ -23,12 +23,12 @@ public class MedInformation {
         this.id = id;
     }
 
-    public String getMedname() {
-        return medname;
+    public String getMedName() {
+        return medName;
     }
 
-    public void setMedname(String medname) {
-        this.medname = medname;
+    public void setMedName(String medName) {
+        this.medName = medName;
     }
 
     public Date getProductionDate() {
@@ -50,12 +50,12 @@ public class MedInformation {
         this.productionDateStr = productionDateStr;
     }
 
-    public String getShelflife() {
-        return shelflife;
+    public String getShelfLife() {
+        return shelfLife;
     }
 
-    public void setShelflife(String shelflife) {
-        this.shelflife = shelflife;
+    public void setShelfLife(String shelfLife) {
+        this.shelfLife = shelfLife;
     }
 
     public String getSpeciality() {
