@@ -4,10 +4,10 @@ import java.util.List;
 
 public class Hospital {
     private Integer id;
-    private String hospitalname;
-    private String hospitaladdress;
-    private String contaceinformation;
-    private List<Salesperson> salesperson;
+    private String hospitalName;
+    private String hospitalAddress;
+    private String contaceinFormation;
+    private List<SalesPerson> salesPerson;
 
     public Integer getId() {
         return id;
@@ -17,35 +17,35 @@ public class Hospital {
         this.id = id;
     }
 
-    public String getHospitalname() {
-        return hospitalname;
+    public String getHospitalName() {
+        return hospitalName;
     }
 
-    public void setHospitalname(String hospitalname) {
-        this.hospitalname = hospitalname;
+    public void setHospitalName(String hospitalName) {
+        this.hospitalName = hospitalName;
     }
 
-    public String getHospitaladdress() {
-        return hospitaladdress;
+    public String getHospitalAddress() {
+        return hospitalAddress;
     }
 
-    public void setHospitaladdress(String hospitaladdress) {
-        this.hospitaladdress = hospitaladdress;
+    public void setHospitalAddress(String hospitalAddress) {
+        this.hospitalAddress = hospitalAddress;
     }
 
-    public String getContaceinformation() {
-        return contaceinformation;
+    public String getContaceinFormation() {
+        return contaceinFormation;
     }
 
-    public void setContaceinformation(String contaceinformation) {
-        this.contaceinformation = contaceinformation;
+    public void setContaceinFormation(String contaceinFormation) {
+        this.contaceinFormation = contaceinFormation;
     }
 
-    public List<Salesperson> getSalesperson() {
-        return salesperson;
+    public List<SalesPerson> getSalesPerson() {
+        return salesPerson;
     }
 
-    public void setSalesperson(List<Salesperson> salesperson) {
-        this.salesperson = salesperson;
+    public void setSalesPerson(List<SalesPerson> salesPerson) {
+        this.salesPerson = salesPerson;
     }
 }

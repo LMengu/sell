@@ -5,7 +5,7 @@ import java.util.List;
 public class Patient {
     private Integer id;
     private List<Hospital> hospital;
-    private List<Patientinformation> patientinformation;
+    private List<PatientInformation> patientInformation;
 
     public Integer getId() {
         return id;
@@ -23,11 +23,11 @@ public class Patient {
         this.hospital = hospital;
     }
 
-    public List<Patientinformation> getPatientinformation() {
-        return patientinformation;
+    public List<PatientInformation> getPatientInformation() {
+        return patientInformation;
     }
 
-    public void setPatientinformation(List<Patientinformation> patientinformation) {
-        this.patientinformation = patientinformation;
+    public void setPatientInformation(List<PatientInformation> patientInformation) {
+        this.patientInformation = patientInformation;
     }
 }
