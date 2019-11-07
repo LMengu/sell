@@ -8,6 +8,6 @@ import java.util.List;
 
 public interface MedInfDao {
 
-    @Select("select * from med_information")
+    @Select("select * from medInformation")
     public List<MedInformation> findAll() throws Exception;
 }

@@ -1,4 +1,13 @@
-D:\IDE项目目录\sell\sell_domain\src\main\java\cn\shendu\domain\UserInfo.java
-D:\IDE项目目录\sell\sell_domain\src\main\java\cn\shendu\domain\MedInformation.java
-D:\IDE项目目录\sell\sell_domain\src\main\java\cn\shendu\domain\Permission.java
-D:\IDE项目目录\sell\sell_domain\src\main\java\cn\shendu\domain\Role.java
+D:\EsyUi\sell\sell_domain\src\main\java\cn\shendu\domain\Salesperson.java
+D:\EsyUi\sell\sell_domain\src\main\java\cn\shendu\domain\Medprice.java
+D:\EsyUi\sell\sell_domain\src\main\java\cn\shendu\domain\MedInformation.java
+D:\EsyUi\sell\sell_domain\src\main\java\cn\shendu\domain\UsersRole.java
+D:\EsyUi\sell\sell_domain\src\main\java\cn\shendu\domain\Rolepermission.java
+D:\EsyUi\sell\sell_domain\src\main\java\cn\shendu\domain\Medinventory.java
+D:\EsyUi\sell\sell_domain\src\main\java\cn\shendu\domain\HospitalMedinventory.java
+D:\EsyUi\sell\sell_domain\src\main\java\cn\shendu\domain\Hospital.java
+D:\EsyUi\sell\sell_domain\src\main\java\cn\shendu\domain\Patient.java
+D:\EsyUi\sell\sell_domain\src\main\java\cn\shendu\domain\Permission.java
+D:\EsyUi\sell\sell_domain\src\main\java\cn\shendu\domain\UserInfo.java
+D:\EsyUi\sell\sell_domain\src\main\java\cn\shendu\domain\Patientinformation.java
+D:\EsyUi\sell\sell_domain\src\main\java\cn\shendu\domain\Role.java

@@ -3,10 +3,10 @@ package cn.shendu.domain;
 import java.util.List;
 
 public class Hospital {
-    private Integer id;
-    private String hospitalname;
-    private String hospitaladdress;
-    private String contaceinformation;
+    private Integer id;//医院ID
+    private String hospitalname;//医院名字
+    private String hospitaladdress;//医院地址
+    private String contaceinformation;//
     private List<Salesperson> salesperson;
 
     public Integer getId() {
