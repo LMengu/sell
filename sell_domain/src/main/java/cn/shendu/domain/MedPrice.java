@@ -2,10 +2,11 @@ package cn.shendu.domain;
 
 import java.util.List;
 
-public class Medinventory {
+public class MedPrice {
     private Integer id;
+    private List<Hospital> hospital;
     private List<MedInformation> medInformation;
-    private Integer num;
+    private Integer medPrice;
 
     public Integer getId() {
         return id;
@@ -13,6 +14,14 @@ public class Medinventory {
 
     public void setId(Integer id) {
         this.id = id;
+    }
+
+    public List<Hospital> getHospital() {
+        return hospital;
+    }
+
+    public void setHospital(List<Hospital> hospital) {
+        this.hospital = hospital;
     }
 
     public List<MedInformation> getMedInformation() {
@@ -23,11 +32,11 @@ public class Medinventory {
         this.medInformation = medInformation;
     }
 
-    public Integer getNum() {
-        return num;
+    public Integer getMedPrice() {
+        return medPrice;
     }
 
-    public void setNum(Integer num) {
-        this.num = num;
+    public void setMedPrice(Integer medPrice) {
+        this.medPrice = medPrice;
     }
 }

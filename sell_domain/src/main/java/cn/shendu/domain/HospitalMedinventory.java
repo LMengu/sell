@@ -4,8 +4,8 @@ import java.util.List;
 
 public class HospitalMedinventory {
     private Integer id;
-    private List<Medprice> medprice;
-    private String medinventory;
+    private List<MedPrice> medPrice;
+    private String mediNventory;
 
     public Integer getId() {
         return id;
@@ -15,19 +15,19 @@ public class HospitalMedinventory {
         this.id = id;
     }
 
-    public List<Medprice> getMedprice() {
-        return medprice;
+    public List<MedPrice> getMedPrice() {
+        return medPrice;
     }
 
-    public void setMedprice(List<Medprice> medprice) {
-        this.medprice = medprice;
+    public void setMedPrice(List<MedPrice> medPrice) {
+        this.medPrice = medPrice;
     }
 
-    public String getMedinventory() {
-        return medinventory;
+    public String getMediNventory() {
+        return mediNventory;
     }
 
-    public void setMedinventory(String medinventory) {
-        this.medinventory = medinventory;
+    public void setMediNventory(String mediNventory) {
+        this.mediNventory = mediNventory;
     }
 }
