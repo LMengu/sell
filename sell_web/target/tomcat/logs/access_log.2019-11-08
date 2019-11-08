@@ -1,9 +1,0 @@
-0:0:0:0:0:0:0:1 - - [08/Nov/2019:19:40:49 +0800] "GET /sell_web HTTP/1.1" 302 - http-bio-80-exec-1 0
-0:0:0:0:0:0:0:1 - - [08/Nov/2019:19:40:49 +0800] "GET /sell_web/ HTTP/1.1" 302 - http-bio-80-exec-3 58
-0:0:0:0:0:0:0:1 - - [08/Nov/2019:19:40:50 +0800] "GET /sell_web/login.jsp HTTP/1.1" 200 2591 http-bio-80-exec-4 566
-0:0:0:0:0:0:0:1 - - [08/Nov/2019:19:40:50 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-80-exec-5 0
-0:0:0:0:0:0:0:1 - - [08/Nov/2019:19:40:54 +0800] "POST /sell_web/login.do HTTP/1.1" 200 14182 http-bio-80-exec-6 1111
-0:0:0:0:0:0:0:1 - - [08/Nov/2019:19:41:07 +0800] "GET /sell_web/logout.do HTTP/1.1" 302 - http-bio-80-exec-7 3
-0:0:0:0:0:0:0:1 - - [08/Nov/2019:19:41:07 +0800] "GET /sell_web/login.jsp HTTP/1.1" 200 2591 http-bio-80-exec-9 2
-0:0:0:0:0:0:0:1 - - [08/Nov/2019:19:41:10 +0800] "POST /sell_web/login.do HTTP/1.1" 200 14182 http-bio-80-exec-10 89
-0:0:0:0:0:0:0:1 - - [08/Nov/2019:19:41:39 +0800] "GET /sell_web/user/findAll.do HTTP/1.1" 200 18781 http-bio-80-exec-10 181

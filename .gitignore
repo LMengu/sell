@@ -30,3 +30,9 @@ out/
 /ssm_case_web/target
 /.idea
 /ssm_case_web/src/main/resources/db.properties
+/sell_web/target
+/sell_utils/target
+/sell_service/target
+/sell_domain/target
+target
+*.iml

@@ -1,8 +1,0 @@
-cn\shendu\controller\OrdersController.class
-cn\shendu\controller\SalesmanController.class
-cn\shendu\controller\UserController.class
-cn\shendu\controller\RoleController.class
-cn\shendu\controller\MedInfController.class
-cn\shendu\controller\PatientController.class
-cn\shendu\controller\PermissionController.class
-cn\shendu\controller\HospitalController.class
