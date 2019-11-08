@@ -3,19 +3,10 @@ package cn.shendu.domain;
 import java.util.List;
 
 public class Hospital {
-<<<<<<< HEAD
     private Integer id;//医院ID
-    private String hospitalname;//医院名字
-    private String hospitaladdress;//医院地址
-    private String contaceinformation;//
-    private List<Salesperson> salesperson;
-=======
-    private Integer id;
-    private String hospitalName;
-    private String hospitalAddress;
-    private String contaceinFormation;
-    private List<SalesPerson> salesPerson;
->>>>>>> f98a2aec1cce72fe083b4c03821c833551a53df4
+    private String hospitalName;//医院名称
+    private String hospitalAddress;//医院地址
+    private String hospitalPhone;//医院联系方式
 
     public Integer getId() {
         return id;
@@ -41,19 +32,11 @@ public class Hospital {
         this.hospitalAddress = hospitalAddress;
     }
 
-    public String getContaceinFormation() {
-        return contaceinFormation;
+    public String getHospitalPhone() {
+        return hospitalPhone;
     }
 
-    public void setContaceinFormation(String contaceinFormation) {
-        this.contaceinFormation = contaceinFormation;
-    }
-
-    public List<SalesPerson> getSalesPerson() {
-        return salesPerson;
-    }
-
-    public void setSalesPerson(List<SalesPerson> salesPerson) {
-        this.salesPerson = salesPerson;
+    public void setHospitalPhone(String hospitalPhone) {
+        this.hospitalPhone = hospitalPhone;
     }
 }

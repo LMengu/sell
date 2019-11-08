@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [08/Nov/2019:11:19:15 +0800] "GET /sell_web/patient/findAll.do HTTP/1.1" 200 17128 http-bio-80-exec-1 1219
+0:0:0:0:0:0:0:1 - - [08/Nov/2019:11:19:28 +0800] "GET /sell_web/medInfs/findAll.do HTTP/1.1" 200 18388 http-bio-80-exec-3 112
+0:0:0:0:0:0:0:1 - - [08/Nov/2019:11:19:30 +0800] "GET /sell_web/sales/findAll.do HTTP/1.1" 200 17142 http-bio-80-exec-5 99
+0:0:0:0:0:0:0:1 - - [08/Nov/2019:11:19:32 +0800] "GET /sell_web/patient/findAll.do HTTP/1.1" 200 17128 http-bio-80-exec-6 8

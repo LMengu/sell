@@ -3,17 +3,20 @@ package cn.shendu.domain;
 
 
 import cn.shendu.utils.DateUtils;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import java.util.Date;
 
 public class MedInformation {
     private Integer id;//药品信息编号
     private String medName;//药品名称
+    @DateTimeFormat(pattern="yyyy-MM-dd HH:mm")
     private Date productionDate;//生产日期
     private String productionDateStr;
     private String shelfLife;//保质期
     private String speciality;//药品特性
     private Double price;//价格
+    private Integer repertory;//数量
 
     public Integer getId() {
         return id;
@@ -72,5 +75,14 @@ public class MedInformation {
 
     public void setPrice(Double price) {
         this.price = price;
+    }
+
+    public Integer getRepertory() {
+
+        return repertory;
+    }
+
+    public void setRepertory(Integer repertory) {
+        this.repertory = repertory;
     }
 }

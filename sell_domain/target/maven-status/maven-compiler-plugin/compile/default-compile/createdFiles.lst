@@ -1,13 +1,8 @@
-cn\shendu\domain\Rolepermission.class
 cn\shendu\domain\UserInfo.class
-cn\shendu\domain\HospitalMedinventory.class
-cn\shendu\domain\Medinventory.class
-cn\shendu\domain\Patient.class
-cn\shendu\domain\UsersRole.class
-cn\shendu\domain\Patientinformation.class
-cn\shendu\domain\Hospital.class
-cn\shendu\domain\Salesperson.class
 cn\shendu\domain\Role.class
 cn\shendu\domain\Permission.class
-cn\shendu\domain\Medprice.class
 cn\shendu\domain\MedInformation.class
+cn\shendu\domain\Patient.class
+cn\shendu\domain\Order.class
+cn\shendu\domain\Salesman.class
+cn\shendu\domain\Hospital.class

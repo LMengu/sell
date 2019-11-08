@@ -72,7 +72,7 @@
 					<li id="system-setting">
 
 							<a
-									href="${pageContext.request.contextPath}/manufacturer/findAll.do"> <i
+									href="${pageContext.request.contextPath}/sales/findAll.do"> <i
 									class="fa fa-circle-o"></i> 销售员
 							</a>
 
@@ -96,11 +96,15 @@
 			</a>
 				<ul class="treeview-menu">
 					<li id="system-setting"><a
+							href="${pageContext.request.contextPath}/hospital/findAll.do">
+						<i class="fa fa-circle-o"></i> 医院信息
+					</a></li>
+					<li id="system-setting"><a
 							href="${pageContext.request.contextPath}/stock/findAll.do">
 						<i class="fa fa-circle-o"></i> 药品信息
 					</a></li>
 					<li id="system-setting"><a
-						href="${pageContext.request.contextPath}/orders/findAll.do?page=1&size=4"> <i
+						href="${pageContext.request.contextPath}/patient/findAll.do"> <i
 							class="fa fa-circle-o"></i> 患者信息
 					</a></li>
 
@@ -115,7 +119,7 @@
 				<ul class="treeview-menu">
 
 					<li id="system-setting"><a
-					href="${pageContext.request.contextPath}/indent/findAll.do">
+					href="${pageContext.request.contextPath}/patient/findAll.do">
 					<i class="fa fa-circle-o"></i> 患者信息
 					</a></li>
 

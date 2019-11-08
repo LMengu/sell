@@ -1,4 +1,7 @@
 cn\shendu\dao\MedInfDao.class
+cn\shendu\dao\HospitalDao.class
 cn\shendu\dao\RoleDao.class
-cn\shendu\dao\PermissionDao.class
+cn\shendu\dao\SalesmanDao.class
 cn\shendu\dao\UserDao.class
+cn\shendu\dao\PatientDao.class
+cn\shendu\dao\PermissionDao.class

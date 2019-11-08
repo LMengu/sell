@@ -1,11 +1,12 @@
 package cn.shendu.domain;
 
-import java.util.List;
-
 public class Patient {
-    private Integer id;
-    private List<Hospital> hospital;
-    private List<PatientInformation> patientInformation;
+    private Integer id;//患者ID
+    private String patientName;//患者名称
+    private String patientSex;//患者性别
+    private Integer patientAge;//患者年龄
+    private String patientAddress;//患者地址
+    private String patientCase;//患者特性
 
     public Integer getId() {
         return id;
@@ -15,19 +16,43 @@ public class Patient {
         this.id = id;
     }
 
-    public List<Hospital> getHospital() {
-        return hospital;
+    public String getPatientName() {
+        return patientName;
     }
 
-    public void setHospital(List<Hospital> hospital) {
-        this.hospital = hospital;
+    public void setPatientName(String patientName) {
+        this.patientName = patientName;
     }
 
-    public List<PatientInformation> getPatientInformation() {
-        return patientInformation;
+    public String getPatientSex() {
+        return patientSex;
     }
 
-    public void setPatientInformation(List<PatientInformation> patientInformation) {
-        this.patientInformation = patientInformation;
+    public void setPatientSex(String patientSex) {
+        this.patientSex = patientSex;
+    }
+
+    public Integer getPatientAge() {
+        return patientAge;
+    }
+
+    public void setPatientAge(Integer patientAge) {
+        this.patientAge = patientAge;
+    }
+
+    public String getPatientAddress() {
+        return patientAddress;
+    }
+
+    public void setPatientAddress(String patientAddress) {
+        this.patientAddress = patientAddress;
+    }
+
+    public String getPatientCase() {
+        return patientCase;
+    }
+
+    public void setPatientCase(String patientCase) {
+        this.patientCase = patientCase;
     }
 }

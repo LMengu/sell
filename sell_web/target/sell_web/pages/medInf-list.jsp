@@ -140,7 +140,8 @@
 										<th class="sorting">生产日期</th>
 										<th class="sorting_desc">保质期</th>
 										<th class="sorting_desc">特性</th>
-										<th class="sorting_desc sorting_desc_disabled">价格</th>
+										<th class="sorting_desc">价格</th>
+										<th class="sorting_desc sorting_desc_disabled">数量</th>
 									</tr>
 								</thead>
 								<tbody>
@@ -154,9 +155,10 @@
 											<td>${medinf.shelfLife}</td>
 											<td>${medinf.speciality}</td>
 											<td>${medinf.price}</td>
+											<td>${medinf.repertory}</td>
 											<td class="text-center">
-												<a href="${pageContext.request.contextPath}/user/findById.do?id=${user.id}" class="btn bg-olive btn-xs">详情</a>
-												<a href="${pageContext.request.contextPath}/user/findUserByIdAndAllRole.do?id=${user.id}" class="btn bg-olive btn-xs">添加角色</a>
+												<a href="${pageContext.request.contextPath}/user/findById.do?id=${user.id}" class="btn bg-olive btn-xs">修改</a>
+												<a href="${pageContext.request.contextPath}/user/findUserByIdAndAllRole.do?id=${user.id}" class="btn bg-olive btn-xs">售出</a>
 											</td>
 										</tr>
 									</c:forEach>
