@@ -108,6 +108,11 @@
 							class="fa fa-circle-o"></i> 患者信息
 					</a></li>
 
+					<li id="system-setting"><a
+							href="${pageContext.request.contextPath}/order/findAll.do"> <i
+							class="fa fa-circle-o"></i> 订单查询
+					</a></li>
+
 				</ul></li>
 
 

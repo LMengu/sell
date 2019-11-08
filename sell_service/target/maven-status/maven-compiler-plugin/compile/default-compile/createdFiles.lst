@@ -4,9 +4,11 @@ cn\shendu\service\impl\SalesmanServiceImpl.class
 cn\shendu\service\impl\UserServiceImpl.class
 cn\shendu\service\SalesmanService.class
 cn\shendu\service\impl\MedInfServiceImpl.class
+cn\shendu\service\impl\OrdersServiceImpl.class
 cn\shendu\service\MedInfService.class
 cn\shendu\service\impl\PermissionServiceImpl.class
 cn\shendu\service\PatientService.class
+cn\shendu\service\OrdersService.class
 cn\shendu\service\UserService.class
 cn\shendu\service\RoleService.class
 cn\shendu\service\impl\RoleServiceImpl.class

@@ -1,8 +1,8 @@
-D:\EsyUi\sell\sell_domain\src\main\java\cn\shendu\domain\Hospital.java
-D:\EsyUi\sell\sell_domain\src\main\java\cn\shendu\domain\MedInformation.java
-D:\EsyUi\sell\sell_domain\src\main\java\cn\shendu\domain\Patient.java
-D:\EsyUi\sell\sell_domain\src\main\java\cn\shendu\domain\Permission.java
-D:\EsyUi\sell\sell_domain\src\main\java\cn\shendu\domain\Salesman.java
-D:\EsyUi\sell\sell_domain\src\main\java\cn\shendu\domain\Order.java
-D:\EsyUi\sell\sell_domain\src\main\java\cn\shendu\domain\UserInfo.java
-D:\EsyUi\sell\sell_domain\src\main\java\cn\shendu\domain\Role.java
+D:\java\sell\sell_domain\src\main\java\cn\shendu\domain\Permission.java
+D:\java\sell\sell_domain\src\main\java\cn\shendu\domain\Salesman.java
+D:\java\sell\sell_domain\src\main\java\cn\shendu\domain\MedInformation.java
+D:\java\sell\sell_domain\src\main\java\cn\shendu\domain\UserInfo.java
+D:\java\sell\sell_domain\src\main\java\cn\shendu\domain\Orders.java
+D:\java\sell\sell_domain\src\main\java\cn\shendu\domain\Role.java
+D:\java\sell\sell_domain\src\main\java\cn\shendu\domain\Patient.java
+D:\java\sell\sell_domain\src\main\java\cn\shendu\domain\Hospital.java
