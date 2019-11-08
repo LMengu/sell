@@ -19,4 +19,19 @@ public class PermissionServiceImpl implements PermissionService {
     public List<Permission> findAll() throws Exception {
         return permissionDao.findAll();
     }
+
+    @Override
+    public void deleteById(Integer id) throws Exception {
+        permissionDao.deleteFromRole_Permission(id);
+        permissionDao.deleteById(id);
+    }
+
+    @Override
+    public Permission findById(Integer id) throws Exception {
+        return permissionDao.findById(id);
+    }
+    @Override
+    public void save(Permission permission) throws Exception {
+        permissionDao.save(permission);
+    }
 }
