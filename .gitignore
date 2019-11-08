@@ -36,3 +36,7 @@ out/
 /sell_domain/target
 target
 *.iml
+/sell_dao/*.iml
+/sell_domain/*.iml
+/sell_service/*.iml
+/sell_utils/*.iml
