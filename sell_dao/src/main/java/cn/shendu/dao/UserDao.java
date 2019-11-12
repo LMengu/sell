@@ -11,8 +11,8 @@ public interface UserDao {
     List<UserInfo> findAll()throws Exception;
 
 
-    @Select("select * from role where id not in(select * from users_role where userId=#{userId})")
-    void addRoleToUser(Integer userId, Integer roleId);
+    @Insert("insert into users_role(userId,roleId) values(#{userId},#{roleId})")
+    void addRoleToUser(@Param("userId") Integer userId,@Param("roleId") Integer roleId);
 
     @Insert("insert to users(username,password,contact,address,power) values(#{username},#{password},#{contact},#{address},#{power})")
     void save(UserInfo userInfo);

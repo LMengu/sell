@@ -155,8 +155,8 @@
 											<td>${salesman.salesmanAddress}</td>
 											<td>${salesman.salesmanPhone}</td>
 											<td class="text-center">
-												<a href="${pageContext.request.contextPath}/user/findById.do?id=${user.id}" class="btn bg-olive btn-xs">删除</a>
-												<a href="${pageContext.request.contextPath}/user/findUserByIdAndAllRole.do?id=${user.id}" class="btn bg-olive btn-xs">添加医院</a>
+												<a href="${pageContext.request.contextPath}/hospital/findById.do?id=${hospital.id}" class="btn bg-olive btn-xs">医院</a>
+												<a href="${pageContext.request.contextPath}/hospital/findHosByIdAndAllSalesman.do?id=${hospital.id}" class="btn bg-olive btn-xs">添加医院</a>
 											</td>
 										</tr>
 									</c:forEach>

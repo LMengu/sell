@@ -23,7 +23,7 @@ public interface PermissionDao {
     Permission findById(Integer id) throws Exception;
 
     @Delete("delete from role_permission where permissionId=#{id}")
-    void deleteFromRole_Permission(Integer id) throws Exception;
+    void deleteFromRole(Integer id) throws Exception;
 
     @Delete("delete from permission where id=#{id}")
     void deleteById(Integer id) throws Exception ;
