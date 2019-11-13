@@ -27,8 +27,6 @@ public interface UserDao {
             @Result(property = "power", column = "power"),
             @Result(property = "roles",column = "id",javaType = java.util.List.class,many = @Many(select = "cn.shendu.dao.RoleDao.findRoleByUserId"))
     })
-
-
     UserInfo findById(Integer id);
 
     @Select("select * from role where id not in(select roleId from users_role where userId=#{userId})")

@@ -1,5 +1,7 @@
 package cn.shendu.domain;
 
+import java.util.List;
+
 public class Salesman {
     private Integer id;//销售员ID
     private String salesmanName;//销售员姓名
@@ -7,7 +9,7 @@ public class Salesman {
     private Integer salesmanAge;//销售员年龄
     private String salesmanAddress;//销售员地址
     private String salesmanPhone;//销售员电话
-
+    private List<Hospital> hospitals;
     public Integer getId() {
         return id;
     }
@@ -54,5 +56,13 @@ public class Salesman {
 
     public void setSalesmanPhone(String salesmanPhone) {
         this.salesmanPhone = salesmanPhone;
+    }
+
+    public List<Hospital> getHospitals() {
+        return hospitals;
+    }
+
+    public void setHospitals(List<Hospital> hospitals) {
+        this.hospitals = hospitals;
     }
 }

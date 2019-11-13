@@ -15,8 +15,6 @@ public interface RoleDao {
             @Result(property = "roleName",column = "roleName"),
             @Result(property = "roleDesc",column = "roleDesc"),
             @Result(property = "permissions",column = "id",javaType = java.util.List.class,many = @Many(select = "cn.shendu.dao.PermissionDao.findPermissionByRoleId"))
-
-
     })
     public List<Role> findRoleByUserId(Integer userId) throws  Exception;
 
