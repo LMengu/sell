@@ -25,5 +25,4 @@ public class SalesmanController {
 
         return mv;
     }
-
 }

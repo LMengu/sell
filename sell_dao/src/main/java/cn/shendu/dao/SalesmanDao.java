@@ -9,4 +9,5 @@ public interface SalesmanDao {
     @Select("select * from salesman")
     List<Salesman> findAll()throws Exception;
 
+
 }
