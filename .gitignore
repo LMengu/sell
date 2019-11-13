@@ -40,3 +40,4 @@ target
 /sell_domain/*.iml
 /sell_service/*.iml
 /sell_utils/*.iml
+/sell_web/src/main/resources/*.properties
