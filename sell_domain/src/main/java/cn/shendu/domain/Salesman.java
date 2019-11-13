@@ -10,10 +10,6 @@ public class Salesman {
     private String salesmanAddress;//销售员地址
     private String salesmanPhone;//销售员电话
     private List<Hospital> hospitals;
-<<<<<<< HEAD
-=======
-
->>>>>>> 46c843e170971c5bbeb02b2b8de39a2c20937eeb
     public Integer getId() {
         return id;
     }

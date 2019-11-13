@@ -7,12 +7,10 @@ import org.apache.ibatis.annotations.*;
 import java.util.List;
 
 public interface SalesmanDao {
+
     @Select("select * from salesman")
     List<Salesman> findAll()throws Exception;
 
-<<<<<<< HEAD
-
-=======
     @Select("select * from salesman where id =#{id}")
     @Results({
             @Result(id = true, property = "id", column = "id"),
@@ -30,8 +28,4 @@ public interface SalesmanDao {
     @Insert("insert into hos_sales(salesmanId,hospitalId) values(#{salesmanId},#{hospitalId})")
     void addHosToSales(@Param("salesmanId") Integer salesmanId, @Param("hospitalId") Integer hospitalId);
 
-    //@Select("select * from role where id not in(select * from users_role where userId=#{userId})")
-    //@Select("select * from Hospital where id not in(select * from hos_sales where salesmanId=#{salesmanId})")
-   // public void addHosToSales(Integer salesmanId, Integer[] hospitalIds);
->>>>>>> 97d885bfe6c9204ff9bbbb16ec8edb367d48160c
 }
