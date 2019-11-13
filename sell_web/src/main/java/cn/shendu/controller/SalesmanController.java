@@ -42,8 +42,6 @@ public class SalesmanController {
         mv.setViewName("salesman-list");
         return mv;
     }
-<<<<<<< HEAD
-=======
     //查询用户及用户可以添加的角色
     @RequestMapping("/findSaleByIdAndAllHos.do")
     public ModelAndView findUserByIdAndAllRole(@RequestParam(name = "id",required = true) Integer salesmanid)throws Exception{
@@ -57,5 +55,4 @@ public class SalesmanController {
         mv.setViewName("salesman-hospital-add");
         return mv;
     }
->>>>>>> 97d885bfe6c9204ff9bbbb16ec8edb367d48160c
 }
