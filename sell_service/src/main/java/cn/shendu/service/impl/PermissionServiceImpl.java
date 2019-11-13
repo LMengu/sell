@@ -22,7 +22,7 @@ public class PermissionServiceImpl implements PermissionService {
 
     @Override
     public void deleteById(Integer id) throws Exception {
-        permissionDao.deleteFromRole_Permission(id);
+        permissionDao.deleteFromRole(id);
         permissionDao.deleteById(id);
     }
 

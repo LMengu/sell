@@ -7,6 +7,7 @@ public class Hospital {
     private String hospitalName;//医院名称
     private String hospitalAddress;//医院地址
     private String hospitalPhone;//医院联系方式
+    private List<Salesman> salesmen;
 
     public Integer getId() {
         return id;
@@ -38,5 +39,13 @@ public class Hospital {
 
     public void setHospitalPhone(String hospitalPhone) {
         this.hospitalPhone = hospitalPhone;
+    }
+
+    public List<Salesman> getSalesmen() {
+        return salesmen;
+    }
+
+    public void setSalesmen(List<Salesman> salesmen) {
+        this.salesmen = salesmen;
     }
 }
