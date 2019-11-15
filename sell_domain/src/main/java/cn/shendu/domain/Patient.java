@@ -1,5 +1,7 @@
 package cn.shendu.domain;
 
+import java.util.List;
+
 public class Patient {
     private Integer id;//患者ID
     private String patientName;//患者名称
@@ -7,7 +9,7 @@ public class Patient {
     private Integer patientAge;//患者年龄
     private String patientAddress;//患者地址
     private String patientCase;//患者特性
-
+    private List<Hospital> hospitals;//医院
     public Integer getId() {
         return id;
     }
@@ -54,5 +56,13 @@ public class Patient {
 
     public void setPatientCase(String patientCase) {
         this.patientCase = patientCase;
+    }
+
+    public List<Hospital> getHospitals() {
+        return hospitals;
+    }
+
+    public void setHospitals(List<Hospital> hospitals) {
+        this.hospitals = hospitals;
     }
 }

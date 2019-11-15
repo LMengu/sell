@@ -27,7 +27,4 @@ public interface SalesmanDao {
     @Insert("insert into hos_sales(salesmanId,hospitalId) values(#{salesmanId},#{hospitalId})")
     void addHosToSales(@Param("salesmanId") Integer salesmanId, @Param("hospitalId") Integer hospitalId);
 
-    //@Select("select * from role where id not in(select * from users_role where userId=#{userId})")
-    //@Select("select * from Hospital where id not in(select * from hos_sales where salesmanId=#{salesmanId})")
-   // public void addHosToSales(Integer salesmanId, Integer[] hospitalIds);
 }

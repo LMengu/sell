@@ -9,7 +9,7 @@ public class Salesman {
     private Integer salesmanAge;//销售员年龄
     private String salesmanAddress;//销售员地址
     private String salesmanPhone;//销售员电话
-    private List<Hospital> hospitals;
+    private List<Hospital> hospitals;//医院
     public Integer getId() {
         return id;
     }

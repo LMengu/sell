@@ -85,7 +85,7 @@
 				<li><a href="${pageContext.request.contextPath}/index.jsp"><i
 						class="fa fa-dashboard"></i> 首页</a></li>
 				<li><a
-					href="${pageContext.request.contextPath}/medInfs/findAll.do">订单信息管理</a></li>
+					href="${pageContext.request.contextPath}/order/findAll.do">订单信息管理</a></li>
 
 				<li class="active">全部信息</li>
 			</ol>
