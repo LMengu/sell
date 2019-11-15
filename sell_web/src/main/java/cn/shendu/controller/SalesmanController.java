@@ -42,13 +42,13 @@ public class SalesmanController {
         mv.setViewName("salesman-list");
         return mv;
     }
-    //查询用户及用户可以添加的角色
+    //查询销售员及销售员可以添加的医院
     @RequestMapping("/findSaleByIdAndAllHos.do")
     public ModelAndView findUserByIdAndAllRole(@RequestParam(name = "id",required = true) Integer salesmanid)throws Exception{
         ModelAndView mv = new ModelAndView();
-        //1.根据用户id查询用户
+        //1.根据销售员id查询销售员
         Salesman salesman = salesmanService.findById(salesmanid);
-        //2.根据用户id查询可以添加的角色
+        //2.根据销售员id查询可以添加的医院
         List<Hospital> otherHospital = salesmanService.findOtherHospital(salesmanid);
         mv.addObject("salesman", salesman);
         mv.addObject("hospitalList", otherHospital);

@@ -7,7 +7,9 @@ public class Hospital {
     private String hospitalName;//医院名称
     private String hospitalAddress;//医院地址
     private String hospitalPhone;//医院联系方式
-    private List<Salesman> salesmen;
+    private List<Salesman> salesmen;//销售员
+    private List<Patient> patients;//患者
+    private List<Orders> orders;//药品信息
 
     public Integer getId() {
         return id;
@@ -47,5 +49,21 @@ public class Hospital {
 
     public void setSalesmen(List<Salesman> salesmen) {
         this.salesmen = salesmen;
+    }
+
+    public List<Patient> getPatients() {
+        return patients;
+    }
+
+    public void setPatients(List<Patient> patients) {
+        this.patients = patients;
+    }
+
+    public List<Orders> getOrders() {
+        return orders;
+    }
+
+    public void setOrders(List<Orders> orders) {
+        this.orders = orders;
     }
 }

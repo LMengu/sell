@@ -99,10 +99,10 @@
 							href="${pageContext.request.contextPath}/hospital/findAll.do">
 						<i class="fa fa-circle-o"></i> 医院信息
 					</a></li>
-					<li id="system-setting"><a
-							href="${pageContext.request.contextPath}/stock/findAll.do">
-						<i class="fa fa-circle-o"></i> 药品信息
-					</a></li>
+					<%--<li id="system-setting"><a--%>
+							<%--href="${pageContext.request.contextPath}/stock/findAll.do">--%>
+						<%--<i class="fa fa-circle-o"></i> 药品信息--%>
+					<%--</a></li>--%>
 					<li id="system-setting"><a
 						href="${pageContext.request.contextPath}/patient/findAll.do"> <i
 							class="fa fa-circle-o"></i> 患者信息

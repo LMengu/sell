@@ -85,7 +85,7 @@
 				<li><a href="${pageContext.request.contextPath}/index.jsp"><i
 						class="fa fa-dashboard"></i> 首页</a></li>
 				<li><a
-					href="${pageContext.request.contextPath}/medInfs/findAll.do">医院信息管理</a></li>
+					href="${pageContext.request.contextPath}/hospital/findAll.do">医院信息管理</a></li>
 
 				<li class="active">全部信息</li>
 			</ol>
@@ -151,8 +151,10 @@
 											<td>${hospital.hospitalAddress}</td>
 											<td>${hospital.hospitalPhone}</td>
 											<td class="text-center">
-												<a href="${pageContext.request.contextPath}/user/findById.do?id=${user.id}" class="btn bg-olive btn-xs">查看患者信息</a>
-												<a href="${pageContext.request.contextPath}/user/findUserByIdAndAllRole.do?id=${user.id}" class="btn bg-olive btn-xs">查看药品信息</a>
+												<a href="${pageContext.request.contextPath}/hospital/findByIds.do?id=${hospital.id}" class="btn bg-olive btn-xs">添加药品</a>
+												<a href="${pageContext.request.contextPath}/hospital/findHosByIdAndAllorders.do?id=${hospital.id}" class="btn bg-olive btn-xs">查看药品信息</a>
+												<a href="${pageContext.request.contextPath}/hospital/findById.do?id=${hospital.id}" class="btn bg-olive btn-xs">患者所在医院</a>
+												<a href="${pageContext.request.contextPath}/hospital/findHosByIdAndAllPat.do?id=${hospital.id}" class="btn bg-olive btn-xs">查看患者信息</a>
 											</td>
 										</tr>
 									</c:forEach>
